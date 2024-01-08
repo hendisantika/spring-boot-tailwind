@@ -49,7 +49,7 @@ npx tailwindcss -i styles/input.css -o ./src/main/resources/static/css/main.css
 
 ### Watching Tailwind CSS classes
 
-Every time you add or remove a class in your HMTL file, you need to rebuild your CSS file; this is not a good developer
+Every time you add or remove a class in your HTML file, you need to rebuild your CSS file; this is not a good developer
 experience.
 Fortunately, the Tailwind CSS CLI provides an option to watch files and rebuild the CSS on change. Just add the option "
 --watch" to the previous command.
@@ -57,3 +57,9 @@ Fortunately, the Tailwind CSS CLI provides an option to watch files and rebuild 
 ```shell
 npx tailwindcss -i styles/input.css -o ./src/main/resources/static/css/main.css --watch
 ```
+
+### Image Screen shot
+
+Tailwind CSS
+
+![Tailwind CSS](home.png "Tailwind CSS")
